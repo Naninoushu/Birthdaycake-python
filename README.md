@@ -1,0 +1,87 @@
+# Birthdaycake-python
+做个生日蛋糕
+def
+ground_floor(width,height,colors _a,h):
+ t.penup()
+ t.goto(width, h)
+ t.pendown()
+ t.begin_fi11()
+ t.fillcolor(colors_al0］)
+ for i in range(360):
+  x=draw_x(width， i)
+  y=draw_y(height,i)+h
+  t.goto(x,y)
+ t.end_fil1()
+ t.begin_fi11()
+ t.fillcolor(colors_a[1])
+ for i in range(180)：
+  x=draw_x(width,-i)
+  y=draw_y(height+10，-i)+h
+  t.goto(x,y)
+ for i in range(180,360):
+  x=draw_x(width, i)
+  y=draw_y(height,i)+h
+  t.goto(x,y)
+ t.end_fil1()
+
+def
+each_piece(width,height_1,height
+_2,colors_b,h):
+ t.penup()
+ t.goto(width,h)
+ t.pendown()
+ t.begin_fi11()
+ t.fillcolor(colors_b[0])
+ for i in range(360):
+  x=draw_x(width, i)
+  y=draw_y(height_1,i)+h
+  t.goto(x,y)
+ t.end_fil1()
+ t.begin_fi11()
+ t.fi1lcolor(colors_b[0])
+ for i in range(540):
+ x=draw_x(width, i)
+ y=draw_y(height_1,i)+height_2+h
+ t.goto(x,y)
+ t.goto(-width,h)
+ t.end_fi11()
+ t.penup()
+ t.goto(width-10,height_2+h)
+ t.pendown()
+ t.begin_fi11()
+ t.fillcolor(colors_b[1])
+ for i in range(360):
+  x=draw_x(width - 10, i)
+  y=draw_y(height_1 0.9,i)+height_2+h
+  t.goto(x.y)
+ t.end_fi11()
+ t.penup()
+ t.goto(width,h)
+ t.pendown()
+ t.begin_fi11()
+ t.fillcolor(colors_b[2］)
+ for i in range(180):
+  x=draw_x(width, -i)
+  y=draw_y(height_1,-i)+10+h
+  t.goto(x,y)
+ t.goto(-width,h)
+ for i in range(180,360)：
+  x=draw_x(width,i)
+  y=draw_y(height_1,i)+h
+  t.goto(x,y)
+ t.end_fi11()
+ t.penup()
+ t.goto(width,height_2+h)
+ t.pendown()
+ t.begin_fil1()
+ t.fi1lcolor(colors_b[3】)
+ for i in range(1800):
+  x=draw_x(width,0.1 * i)
+  y=draw_y(-height_1 0.3,i)+h
+  t.goto(x.y)
+ t.goto(-width,height_2+h)
+ for i in range(180,360):
+  x=draw_x(width, i)
+  y=draw_y(height_1.i)+height_2+h
+  t.goto(x,y)
+ t.end_fi11()
